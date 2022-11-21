@@ -1,0 +1,87 @@
+.border {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.dor {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 206, 206);
+    position: absolute;
+    transition: all 2s ease-out;
+
+}
+
+.shadow {
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 30px 3px black;
+    position: absolute;
+}
+
+.dor-1 {
+    top: 140px;
+    left: 140px;
+}
+
+.dor-2 {
+    top: 140px;
+    right: 140px;
+}
+
+.dor-3 {
+    bottom: 140px;
+    right: 140px;
+}
+
+.dor-4 {
+    bottom: 140px;
+    left: 140px;
+}
+
+.shadow-1 {
+    top: 140px;
+    left: 140px;
+}
+
+.shadow-2 {
+    top: 140px;
+    right: 140px;
+}
+
+.shadow-3 {
+    bottom: 140px;
+    right: 140px;
+}
+
+.shadow-4 {
+    bottom: 140px;
+    left: 140px;
+}
+
+.border:hover .dor-1 {
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+.border:hover .dor-2 {
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+.border:hover .dor-3 {
+    bottom: 0;
+    right: 0;
+    background-color: red;
+}
+
+.border:hover .dor-4 {
+    bottom: 0;
+    left: 0;
+    background-color: red;
+}
