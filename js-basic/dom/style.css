@@ -1,0 +1,8 @@
+#btm {
+    margin: 20% auto;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
